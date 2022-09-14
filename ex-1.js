@@ -1,5 +1,3 @@
-const { cannotHaveAUsernamePasswordPort } = require("whatwg-url");
-
 let getJohnProfile = () => {
   return new Promise(function (resolve) {
     setTimeout(
@@ -22,6 +20,6 @@ let getJohnProfile = () => {
 // เพื่อรักษาความเป็นคนไว้ ควรจะทำแบบนี้
 let displayProfile = (data) => {
   console.log(data);
-}
+};
 
 getJohnProfile().then(displayProfile);
