@@ -10,6 +10,13 @@ let getJohnProfile = () => {
 
 
 // Start coding here
-getJohnProfile().catch((reject) => {
-  console.log(reject);
-})
+// getJohnProfile().catch((reject) => {
+//   console.log(reject);
+// })
+
+let showResult = (data) => {
+  console.log(data);
+}
+
+getJohnProfile().catch(showResult);
+
