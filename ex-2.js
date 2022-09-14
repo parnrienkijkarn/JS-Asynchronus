@@ -10,3 +10,6 @@ let getJohnProfile = () => {
 
 
 // Start coding here
+getJohnProfile().catch((reject) => {
+  console.log(reject);
+})
